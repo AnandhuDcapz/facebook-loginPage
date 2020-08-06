@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook -log in or signup</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a class="logo_text"href="fb.html">facebook</a>
+                
+
+            </div>
+            <div class="login">
+                <form action="">
+                    <table class="login-controls" >
+                        <tr>
+                            <td><label   class="login_label" >Email or Phone</label></td>
+                            <td><label class="login_label">Password</label> </td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>  
+                            <td ><input class="loginui" type="submit" value="Log in"></td>                      
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td > <a class=forgottenaccount href=fb.html>forgotten account? </a></td>
+                        </tr>
+                    </table>
+            </form>
+                
+
+            </div>
+
+        </div>
+        <div class="body">
+            <div class="pictureside">
+                <p class="fb-dialogue">Facebook helps you connect and share with the<br> people in your life.
+                </p>
+                <img class="image" src="fb.png">
+                  
+            </div>
+            <div class="biodataside">
+                <h1>Create an account </h1>
+                <p id="comment">Its quick and easy  </p>
+                <form id="signup-form">
+                    <input name="fname" type="text" placeholder="Firstname" class="username">
+                    <input name="sname" type="text" placeholder="Surname" class="username">
+                    <br>
+                    <br>
+                    <input name="emailaddress"type="text" placeholder="Mobile or email address" class="emailbio">
+                    <br>
+                    <br>
+                    <input name="password"type="text" placeholder="New password" class="emailbio">
+                
+                    <label class="dateofbirth1"><h4>Date of Birth</h4></label>
+                    <select name="day" class="dateofbirth">
+                        <option value="">day</option>
+                        <option value="1">1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select>
+                    <select name="month"id="monthofbirth">
+                        <option value="">june</option>
+                        <option value="july">july</option>
+                        <option>august</option>
+                        <option>september</option>
+                        <option>october</option>
+                        <option>november</option>
+                        <option>december</option>
+                        <option>january</option>
+                        <option>february</option>
+                        <option>march</option>
+                        <option>april</option>
+                        <option>may</option>
+                        
+                    </select>
+                    <select name="year" class="yearofbirth">
+                        <option value="">1989</option>
+                        <option value="1990">1990</option>
+                        <option>1991</option>
+                        <option>1992</option>
+                        <option>1993</option>
+                        <option>1994</option>
+                        <option>1995</option>
+                        <option>1996</option>
+                        <option>1997</option>
+                        <option>1998</option>
+                        <option>1999</option>
+                    </select>
+                    <label class="gender"><h4>Gender</h4></label>
+                    <input id="radio" name="gender" type="radio">
+                    <label class="genderinfo">Female</label>
+                    <input id="radio" name="gender" type="radio">
+                    <label class="genderinfo">Male</label>
+                    <input id="radio" name="gender" type="radio">
+                    <label class="genderinfo" >Custom</label>
+                    
+
+
+                                                    
+                </form>
+                <p class="passage">By clicking Sign Up, you agree to our<span style="color:hsl(221, 42%, 44%);"> Terms,Data Policy</span> and <br><span style="color: hsl(221, 42%, 44%);">Cookie Policy.</span> You may recieve SMS notification from us and <br> can opt at any time</p><br>
+            
+                <button id="button" type="submit">Sign Up</button>
+                <br>
+                <p class="passage"><strong><span style="color: hsl(221, 42%, 44%);">Create a Page</span> for a celebrity, band or business</strong></p>
+          
+
+            </div>
+
+        </div>
+        <div class="footer">
+
+        </div>
+
+    </div>
+    <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
